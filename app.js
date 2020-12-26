@@ -7,5 +7,5 @@ app.listen(port,() =>{})
 ;
 
 app.get('/',(req,res)=>{
-    res.send("Hi Rajesh node api's is setup successfully in AWS ... Congrats :)");
+    res.send("welcome to mean project APi's for testing final version coming soon:)");
 })
