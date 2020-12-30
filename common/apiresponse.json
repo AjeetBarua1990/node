@@ -2,5 +2,10 @@
     "UserCreated":"User created successfully",
     "WrongInput":"Please send valid input",
     "UserAlreddayAvailable":"Email ID already present.",
-    "Success":"Success"
+    "Success":"Success",
+    "SomethingWentWrong":"Something went wrong",
+    "InvalidCredentials" :"Invalid Credientials",
+    "UserDataUpdated":"User has been updated",
+    "UserNotFound":"User not found"
+
 }

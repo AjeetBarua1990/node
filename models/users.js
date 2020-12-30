@@ -17,7 +17,7 @@ var newSchema = new Schema();
 newSchema.add({
    "userEmail": { type: String,required:true,unique:true},
    "userName": { type: String},
-   "password": { type: String},
+   "password": { type: String, default: "qwerty@1" },
    "createdAt": { type: Date , default: Date.now },
    "updatedAt": { type: Date , default: Date.now },
    "status": { type: Boolean , default:true},
