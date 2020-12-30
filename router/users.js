@@ -9,4 +9,6 @@ router.post('/usersUpdate',usersUpdate);
 
 router.get('/usersList',usersList);
 
+//Api has been created for User
+
 module.exports = router;
