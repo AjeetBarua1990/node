@@ -1,0 +1,9 @@
+{
+    "SECRET_KEY":"secretkey23456",    
+    "REST_PORT":"3000",
+    "db_username":"Oneclick",
+    "db_pasword":"Oneclick#123",
+    "db":"Humonoid",
+    "mailUrl":"",
+    "HostURL":"sithumanoidapi.ochumanoid.ai"
+}
