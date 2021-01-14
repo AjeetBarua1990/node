@@ -37,8 +37,8 @@ async function userlogin(req, res, next) {
     responseObj.status = apistatus.Bad_Request;
     res.send(responseObj);
  }
-   
 }
+
 
 async function usersList(req, res, next) {
     let responseObj = {};
@@ -59,6 +59,7 @@ async function usersList(req, res, next) {
             res.send(responseObj);
         }
 }
+
 
 async function usersCreate(req, res, next) {
     let responseObj = {};
