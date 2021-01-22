@@ -17,7 +17,7 @@ var fs = require('fs');
 var https = require("https");
 
 const routeUser = require("./router/users");
-
+const routeGroup = require("./router/group");
 
 
 app.use(BodyParser.json({ limit: "10mb" }));
@@ -40,6 +40,7 @@ app.use(function (req, res, next) {
 app.set('view engine', 'html')
 
 app.use('/user',routeUser);
+app.use('/group',routeGroup);
 
 
 
